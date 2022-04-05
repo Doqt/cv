@@ -7,79 +7,131 @@
     <meta name="keywords" content="cv, junior, frontend, html, css">
     <meta name="description" content="Сайт - резюме">
     <title>Junior Front-end CV</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <img src="imgs/ava.jpg" alt="ava" width="200">
-    <h1>Рыбаков Эдуард</h1>
 
-    <p>Я <strong>инженер-энергетик</strong>, который спустя 8 лет работы инженером решил <em>переквалифицироваться</em> на новую для себя профессию - <strong>Front-end разработчик.</strong></p>
-    <p>Я люблю <em>изучать что-то новое и совершенстоваться.</em></p>
+    <div class="container">       
+           
+            <div class="info">
+                    <img src="imgs/avaka.jpg" alt="ava" class="avatar"> 
+                    <div class="info-text">
+                                    
+                    <h1>Рыбаков Эдуард</h1>      
+                    <p>Я <strong>инженер-энергетик</strong>, который, проработав 8 лет в своей сфере, решил <em>переквалифицироваться</em> в новую для себя профессию - <strong>Frontend разработчик.</strong></p>
+                    <p>Я люблю <em>изучать что-то новое и совершенствоваться.</em></p>
+                
+                
+                    <p><strong>Мои социальные сети:</strong></p>
+                    <a href="https://t.me/doqtx" target="_blank"><strong>Telegram</strong></a> |
+                    <a href="https://www.instagram.com/doqtx" target="_blank"><strong>Instagram</strong></a>
+                </div>
+            </div>
 
-    <p><strong>Мои хобби:</strong></p>
-    <ol>
-        <li>Компьютерные игры</li>
-        <li>Программирование</li>
-        <li>Путешествия</li>
-    </ol>
-    
-    <p><strong>Мои социальные сети:</strong></p>
-    <a href="https://t.me/doqtx" target="_blank">Telegram</a> |
-    <a href="https://www.instagram.com/doqtx" target="_blank">Instagram</a>
 
 
-    <p><strong>Опыт работы</strong></p>
-    <table>
-        <thead>
-            <tr>
-                <th>Компания</th>
-                <th>Должность</th>
-                <th>Год</th>
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <td>Релематика</td>
-                <td>Техник-исследователь</td>
-                <td>2013-2016</td>
-            </tr>
-            <tr>
-                <td>Релематика</td>
-                <td>Инженер-исследователь</td>
-                <td>2016-2018</td>
-            </tr>
-            <tr>
-                <td>Релематика</td>
-                <td>Инженер-исследователь 3 категории</td>
-                <td>2018-2019</td>
-            </tr>
-            <tr>
-                <td>Юнител Инжиниринг</td>
-                <td>Инженер-разработчик РЗиА 2 категории</td>
-                <td>2019-2021</td>
-            </tr>
-            <tr>
-                <td>Sellout+</td>
-                <td>Старший специалист по загрузке данных</td>
-                <td>2021-сейчас</td>
-            </tr>
-        </tbody>
-    </table>
+        <div class="cardEdu">
+            <p><strong>Образование:</strong></p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>ЧГУ им. И.Н. Ульянова</th>
+                        <th>Годы обучения</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Бакалавриат - Релейная защита и автоматизация электроэнергетических систем</td>
+                        <td>2012-2016</td>
+                    </tr>
+                    <tr>
+                        <td>Магистратура - Автоматика энергосистем</td>
+                        <td>2016-2018</td>
+                    </tr>
 
-    <p><strong>Связаться со мной:</strong></p>
-    <form>
-        <div>
-            <label for="text1">Ваше имя:</label>
-            <input type="text" id="text1" placeholder="Введите имя">
+                </tbody>
+            </table>
         </div>
-        <div>
-            <label for="text2">Ваш email:</label>
-            <input type="text" id="text2" placeholder="Введите email">
+
+        <div class="cardExp">
+            <p><strong>Опыт работы:</strong></p>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Компания</th>
+                        <th>Должность</th>
+                        <th>Год</th>
+                        <th>Сфера деятельности</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Релематика</td>
+                        <td>Техник-исследователь</td>
+                        <td>2013-2016</td>
+                        <td>Электроэнергетика</td>
+                    </tr>
+                    <tr>
+                        <td>Релематика</td>
+                        <td>Инженер-исследователь</td>
+                        <td>2016-2018</td>
+                        <td>Электроэнергетика</td>
+                    </tr>
+                    <tr>
+                        <td>Релематика</td>
+                        <td>Инженер-исследователь 3 кат.</td>
+                        <td>2018-2019</td>
+                        <td>Электроэнергетика</td>
+                    </tr>
+                    <tr>
+                        <td>Юнител Инжиниринг</td>
+                        <td>Инженер-разработчик РЗиА 2 кат.</td>
+                        <td>2019-2021</td>
+                        <td>Электроэнергетика</td>
+                    </tr>
+                    <tr>
+                        <td>Sellout+</td>
+                        <td>Старший специалист по загрузке данных</td>
+                        <td>2021-н.в.</td>
+                        <td>IT</td>
+                    </tr>
+                </tbody>
+            </table>
         </div>
-        <div>
-            <label for="message">Ваше Сообщение:</label>
-            <br>
-            <textarea id="message" cols="32" rows="5" placeholder="Введите сообщение ..."></textarea>
+
+        <div class="cardHobby">
+            <p><strong>Мои хобби:</strong></p>
+            <ol>
+                <li>Компьютерные игры</li>
+                <li>Программирование</li>
+                <li>Путешествия</li>
+            </ol>
         </div>
-    </form>
+        
+
+        
+            <form action="/" class="form">
+                <p><strong>Связаться со мной</strong></p>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="text1">Ваше имя:</label>
+                        <input type="text" id="text1" placeholder="Введите имя">
+                    </div>
+                    <div class="form-group">
+                        <label for="text2">Ваш email:</label>
+                        <input type="text" id="text2" placeholder="Введите email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label for="message">Ваше Сообщение:</label>
+                    <textarea id="message" rows="5" placeholder="Введите сообщение ..."></textarea>
+                </div>
+                <div>
+                    <input type="submit" class="btn" value="Отправить">
+                </div>
+            </form>
+
+    </div>
 </body>
 </html>
